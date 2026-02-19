@@ -78,6 +78,14 @@ select * from loans;
 select * from payments;
 <img width="610" height="420" alt="Screenshot 2026-02-19 191554" src="https://github.com/user-attachments/assets/e4125e06-00cd-4965-83be-c30f3543e9dc" />
 
+Create table
+
+<img width="709" height="418" alt="Screenshot 2026-02-19 192126" src="https://github.com/user-attachments/assets/5da1266a-2218-4c8a-9c16-b8e9b34b75f1" />
+
+<img width="932" height="667" alt="Screenshot 2026-02-19 192319" src="https://github.com/user-attachments/assets/bc00947d-6f44-4b5e-b052-a76a86bbd0cc" />
+
+
+
 
 
 
