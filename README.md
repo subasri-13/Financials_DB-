@@ -64,7 +64,9 @@ Dataset Information
 Select * from customers;
 <img width="657" height="379" alt="Screenshot 2026-02-19 190852" src="https://github.com/user-attachments/assets/68421dbe-0d92-4004-9d31-c1efee451ed8" />
 
+
 select * from accounts;
+
 <img width="481" height="393" alt="Screenshot 2026-02-19 191202" src="https://github.com/user-attachments/assets/2d3d5666-8cad-4f69-a4f4-2791d5e87e97" />
 
 select * from transactions;
