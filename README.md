@@ -60,7 +60,24 @@ Loans	:Loan details, Loan type, Interest rate
 Payments:	Loan repayment, Payment mode, Payment history
 
 Dataset Information
+
+Select * from customers;
 <img width="657" height="379" alt="Screenshot 2026-02-19 190852" src="https://github.com/user-attachments/assets/68421dbe-0d92-4004-9d31-c1efee451ed8" />
+
+select * from accounts;
+<img width="481" height="393" alt="Screenshot 2026-02-19 191202" src="https://github.com/user-attachments/assets/2d3d5666-8cad-4f69-a4f4-2791d5e87e97" />
+
+select * from transactions;
+<img width="607" height="439" alt="image" src="https://github.com/user-attachments/assets/1b224f44-1ddf-47ed-8924-2b0138fbca22" />
+
+select * from loans;
+<img width="644" height="415" alt="Screenshot 2026-02-19 191430" src="https://github.com/user-attachments/assets/21eae349-ffdf-46a7-94c3-6fca7060a707" />
+
+select * from payments;
+<img width="610" height="420" alt="Screenshot 2026-02-19 191554" src="https://github.com/user-attachments/assets/e4125e06-00cd-4965-83be-c30f3543e9dc" />
+
+
+
 
 
 
