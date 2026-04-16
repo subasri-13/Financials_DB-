@@ -13,23 +13,6 @@ To track loan repayment and payment history efficiently.
 To maintain data accuracy using relationships between tables.
 To provide an organized system for handling banking operations easily.
 
-This Project Is Useful
-
-Helps store customer and banking details in one place.
-Makes managing account and balance information easy.
-Tracks deposits, withdrawals, and transfers properly.
-Helps manage customer loan details.
-Keeps record of loan payments and repayment history.
-Reduces manual work and data errors.
-Provides an organized and easy way to handle financial records.
-
-Sample Use Case
-
- A bank employee can add and manage customer account details in the system.
- Customers can deposit or withdraw money, and the transactions are recorded automatically.
- The bank can provide loans to customers and store loan information securely.
- Loan payments made by customers can be tracked easily.
- The system helps the bank monitor customer financial activities in an organized way.
 
 Queries Classification
 
@@ -40,17 +23,6 @@ Intermediate Queries:
 Advanced Queries: 
 		CTE, Sub query, Window function ,
 		 Functions , Store procedures, Views
-     
-Contstraints:
-
-Unique Key:
-A unique key in MySQL is a single field or combination of fields that ensure all values going to store into the column will be unique. It means a column cannot stores duplicate 
-Primary Key:
-MySQL primary key is a single or combination of the field, which is used to identify each record in a table uniquely. If the column contains primary key constraints, then it cannot be null or empty. A table may have duplicate columns, but it can contain only one primary key. It always contains unique value into a column.
-Foreign Key:
-The foreign key is used to link one or more than one table together. It is also known as the referencing key. A foreign key matches the primary key field of another table. It means a foreign key field in one table refers to the primary key field of the other table. It identifies each row of another table uniquely that maintains the referential integrity in MySQL.
-NOT NULL:
-The NOT NULL constraint is a column constraint that ensures values stored in a column are not NULL.
 
 Main Database tables
 Customers:	Customer details, Personal information, Contact details
@@ -82,6 +54,7 @@ Create table
 
 <img width="709" height="418" alt="Screenshot 2026-02-19 192126" src="https://github.com/user-attachments/assets/5da1266a-2218-4c8a-9c16-b8e9b34b75f1" />
 
+
 <img width="932" height="667" alt="Screenshot 2026-02-19 192319" src="https://github.com/user-attachments/assets/bc00947d-6f44-4b5e-b052-a76a86bbd0cc" />
 
 What is WHERE Condition in MySQL?
@@ -91,7 +64,9 @@ SELECT *
 FROM customers
 WHERE city = 'New York';
 
+
 <img width="602" height="254" alt="Screenshot 2026-02-19 192718" src="https://github.com/user-attachments/assets/5d08a164-3c17-4d01-adfc-600d7ba583c2" />
+
 
 
 What is GROUP BY in MySQL?
@@ -103,7 +78,10 @@ FROM accounts
 GROUP BY account_type;
 
 
+
 <img width="552" height="258" alt="image" src="https://github.com/user-attachments/assets/33c5254a-5df0-4539-9138-be419421c564" />
+
+
 
 What is HAVING in MySQL?
 
@@ -113,7 +91,10 @@ FROM accounts
 GROUP BY account_type
 HAVING SUM(balance) > 100000;
 
+
 <img width="553" height="287" alt="Screenshot 2026-02-19 193252" src="https://github.com/user-attachments/assets/20bcfa08-4bd9-4ddc-b860-eb28020a30c6" />
+
+
 
 What is ORDER BY in MySQL?
 
@@ -122,7 +103,11 @@ SELECT *
 FROM customers
 ORDER BY full_name ASC;
 
+
 <img width="734" height="338" alt="image" src="https://github.com/user-attachments/assets/17d10938-05ff-4bed-ba88-814a48e5c76a" />
+
+
+
 
 What is JOIN in MySQL?
 
@@ -134,7 +119,11 @@ ON c.customer_id = a.customer_id
 JOIN transactions t
 ON a.account_id = t.account_id;
 
+
 <img width="536" height="417" alt="image" src="https://github.com/user-attachments/assets/29a141f4-836c-46c1-aee6-3c9b15044f0e" />
+
+
+
 
 What is CTE in MySQL?
 
@@ -151,6 +140,9 @@ ON c.customer_id = cb.customer_id;
 
 <img width="752" height="357" alt="image" src="https://github.com/user-attachments/assets/858a5661-fca9-4f94-a12f-edabc6bf683e" />
 
+
+
+
 What is CASE Function in MySQL?
 
 The CASE function in MySQL is used to apply conditions and return different values based on those conditions.
@@ -162,7 +154,12 @@ CASE
 END AS payment_type
 FROM payments;
 
+
+
 <img width="984" height="435" alt="Screenshot 2026-02-19 194430" src="https://github.com/user-attachments/assets/0664d675-2c21-4cf0-8c5e-16d29025c557" />
+
+
+
 
 What is VIEW in MySQL?
 
